@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <%- include("partials/header.ejs") %>
+  <div class="postMain" >
+    <h1 class="postHeader">Publish your post</h1>
+<form action="/submit" method="POST">
+  <input type="text" class="feedback-input" name="title" placeholder="Title" />
+  <textarea  name="content" class="feedback-input" placeholder="Enter you post"></textarea>
+  <input type="submit" value="SUBMIT" />
+</form>
+</div>
+
+</body>
+</html>
+

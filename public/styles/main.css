@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#blog {
+  margin-top: 100px;
+  height: 70vh;
+  width: 150vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  background-image: url('/images/blog4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  color: #FFFFE4;
+}
+
+.content1 {
+  margin-top: 50px;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 5);
+  padding: 15px;
+  z-index: 1000;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu a:hover {
+  background-color: black;
+  padding: 15px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.postMain {
+  height: 100vh;
+  background-color: #F5F5F5;
+}
+
+.postHeader {
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+form {
+  margin: 50px 60px;
+}
+
+.feedback-input {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 5);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #2c2d2d;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background: rgba(0, 0, 0, 5);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+[type="submit"]:hover {
+  background: #2c2d2d;
+}
+
+.abtbody {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.about-main {
+  background-color: #262525;
+  height: 100vh;
+}
+
+.pcontainer {
+  margin: 55px auto 20px auto;
+  width: 300px;
+}
+
+.ppicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-me {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.abtme {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.cont {
+  text-align: center;
+}
+
+.social-links a {
+  font-size: 1.1rem;
+  margin: 0px 0;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a i,
+.social-links a svg {
+  margin-right: 8px;
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+.social-links a:hover {
+  color: #0077b5;
+}
+
+.social-links a:nth-child(2):hover {
+  color: #FF0000;
+}
+
+.social-links a:nth-child(3):hover {
+  color: #636363;
+}
+
+.solc {
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#xtwit {
+  width: 70px;
+  margin-right: 5px;
+  height: 44px;
+  vertical-align: middle;
+  padding-right: 0px;
+}
+
+.cont-main {
+  background-image: url('images/about.jpg');
+  background-color: black;
+  margin-top: 50px;
+  color: white;
+}
+
+.x {
+  padding-right: 20px;
+  margin-right: 20px;
+}
